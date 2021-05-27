@@ -1,0 +1,19 @@
+.projetos{
+  display: flex;
+  div + div {
+    margin-left: 15px;
+  }
+}
+.card{
+  width: 18rem;
+   & .button{
+     display: block;
+     background: $blue;
+     border: $blue;
+     color: $white;
+     border-radius: 12px;
+   }
+   a + a {
+     margin-top: 10px;
+   }
+}
