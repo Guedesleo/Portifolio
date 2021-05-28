@@ -32,7 +32,7 @@ const IndexPage = () => (
         id="experience"
       >
         <div className="w-100">
-          <h2 className="mb-5">Experience</h2>
+          <h2 className="mb-5">Experiencias</h2>
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
               <h3 className="mb-0">DESENVOLVEDOR JUNIOR NODE E GOLANG</h3>
@@ -76,7 +76,7 @@ const IndexPage = () => (
         id="education"
       >
         <div className="w-100">
-          <h2 className="mb-5">Education</h2>
+          <h2 className="mb-5">Formação Academica</h2>
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
@@ -97,10 +97,10 @@ const IndexPage = () => (
         id="skills"
       >
         <div className="w-100">
-          <h2 className="mb-5">Skills</h2>
+          <h2 className="mb-5">Conhecimentos Técnicos</h2>
 
           <div className="subheading mb-3">
-            Programming Languages &amp; Tools
+            Promação Linguagems e Ferramentas
           </div>
           <BubbleChart
             className="container"
@@ -119,6 +119,8 @@ const IndexPage = () => (
               { label: 'MYSQL', value: 20 },
               { label: 'SQL', value: 20 },
               { label: 'Postgres', value: 20 },
+              { label: 'Github', value: 50 },
+              { label: 'Dcoker', value: 20 },
               { label: 'Styled Components', value: 35 },
               { label: 'Celebrate', value: 25 },
               { label: 'Jest', value: 25 },
@@ -127,7 +129,7 @@ const IndexPage = () => (
             ]}
           />
 
-          <div className="subheading mb-3">Projects</div>
+          <div className="subheading mb-3">Projetos</div>
           <section className="projetos">
             <div className="card">
               <img src={flexbox} alt="Flexbox" className="card-img-top" />
@@ -167,7 +169,7 @@ const IndexPage = () => (
         id="interests"
       >
         <div className="w-100">
-          <h2 className="mb-5">Interests</h2>
+          <h2 className="mb-5">Interesses</h2>
           <p>
             Além de ser um desenvolvedor web e mobile, eu aproveito a maior parte do tempo ao ar livre.Jogando Futebol onde eu tenho
             um time.
@@ -186,7 +188,7 @@ const IndexPage = () => (
         id="awards"
       >
         <div className="w-100">
-          <h2 className="mb-5">Awards &amp; Certifications</h2>
+          <h2 className="mb-5">Certificações</h2>
           <ul className="fa-ul mb-0">
             <li>
               <i className="fa-li fa fa-trophy text-warning"></i>
@@ -202,7 +204,7 @@ const IndexPage = () => (
             </li>
             <li>
               <i className="fa-li fa fa-trophy text-warning"></i>
-                LauchtBase- Rocketseat
+                LauchBase- Rocketseat
             </li>
             <li>
               <i className="fa-li fa fa-trophy text-warning"></i>
