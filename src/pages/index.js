@@ -3,7 +3,9 @@ import React from 'react';
 import Layout from '../components/Layout';
 import BubbleChart from '@weknow/react-bubble-chart-d3';
 import { FiGithub , FiEye } from "react-icons/fi";
-
+import flexbox from '../assets/images/Flexbox.png';
+import gridlayout from '../assets/images/Grid-Layout.png';
+import reibebidas from '../assets/images/Rei-bebidas.png';
 // import { Link } from 'gatsby';
 import Sidebar from '../components/Sidebar';
 import Resume from '../components/sections/Resume';
@@ -128,7 +130,7 @@ const IndexPage = () => (
           <div className="subheading mb-3">Projects</div>
           <section className="projetos">
             <div className="card">
-              <img src="assets/Flexbox.png" alt="Flexbox" className="card-img-top" />
+              <img src={flexbox} alt="Flexbox" className="card-img-top" />
               <div className="card-body">
                 <h5 className="card-body">Conceito de FlexBox</h5>
                 <p className="card-text">Aplicando o conceito de Flexbox, com o curso de Origamid.</p>
@@ -137,7 +139,7 @@ const IndexPage = () => (
               </div>
             </div>
             <div className="card">
-              <img src="assets/Grid-Layout.png" alt="Grid-Layout" className="card-img-top" />
+              <img src={gridlayout} alt="Grid-Layout" className="card-img-top" />
               <div className="card-body">
                 <h5 className="card-body">CSS-Grid-Layout</h5>
                 <p className="card-text">Aplicando o conceito de Grid-Layout, com o curso de Origamid.</p>
@@ -146,7 +148,7 @@ const IndexPage = () => (
               </div>
             </div>
             <div className="card">
-              <img src="assets/Rei-bebidas.png" alt="Rei das Bebidas" className="card-img-top" />
+              <img src={reibebidas} alt="Rei das Bebidas" className="card-img-top" />
               <div className="card-body">
                 <h5 className="card-body">Rei das Bebidas Conceito de Flexbox e Grid-Layout</h5>
                 <p className="card-text">Aplicando o conceito de Flexbox e Grid Layout.</p>
